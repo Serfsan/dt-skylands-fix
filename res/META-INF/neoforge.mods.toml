@@ -1,0 +1,37 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+issueTrackerURL = "https://github.com/Serfsan/dt-skylands-fix/issues"
+
+[[mods]]
+modId = "dtskylandsfix"
+version = "1.0.0"
+displayName = "DT Skylands Fix"
+authors = "Serfsan"
+displayURL = "https://modrinth.com/mod/dt-skylands-fix"
+displayTest = "IGNORE_ALL_VERSION"
+description = "Fixes Dynamic Trees not growing on Terralith's Skylands islands on 1.21.1."
+
+[[mixins]]
+config = "dtskylandsfix.mixins.json"
+
+[[dependencies.dtskylandsfix]]
+modId = "dynamictrees"
+type = "required"
+versionRange = "[1.7.2,1.8)"
+ordering = "AFTER"
+side = "BOTH"
+
+[[dependencies.dtskylandsfix]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.dtskylandsfix]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,21.2)"
+ordering = "NONE"
+side = "BOTH"
