@@ -8,3 +8,5 @@ biome anymore. So Dynamic Trees - Terralith's ocean_floor setting for the Skylan
 trees go on the ground under the islands. This moves that one check back to y=0.
 
 Only affects newly generated chunks. Build with `build.ps1` (JDK 21).
+
+Icon is based on the Dynamic Trees logo, Copyright (c) 2025 DynamicTreesTeam, used under the MIT License.
